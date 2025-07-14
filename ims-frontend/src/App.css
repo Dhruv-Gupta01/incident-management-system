@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+}
+
+.container {
+  max-width: 400px;
+  margin: 4rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input, select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.incident {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+}

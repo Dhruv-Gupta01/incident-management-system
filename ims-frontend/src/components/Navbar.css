@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* ➡️ Pushes logout button to the right */
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1d4ed8;
+    color: white;
+    margin-bottom: 2rem;
+    border-radius: 0 0 0.75rem 0.75rem;
+  }
+  
+  .logo {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .logout-btn {
+    background-color: #ef4444;
+    border: none;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.875rem;
+    color: white;
+    font-weight: 500;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  
+  .logout-btn:hover {
+    background-color: #dc2626;
+  }
+  
